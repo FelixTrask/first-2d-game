@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwrr6uhb6ho7b"]
+
+[ext_resource type="Script" uid="uid://bl1jlldcf1kvb" path="res://coin_ui.gd" id="1_i8ha2"]
+[ext_resource type="Texture2D" uid="uid://7tab7pcxg8kb" path="res://free-swamp-game-tileset-pixel-art/4 Animated objects/Coin.png" id="2_kgjm3"]
+
+[node name="CoinUI" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 30.0
+offset_top = 30.0
+offset_right = 70.0
+offset_bottom = 70.0
+script = ExtResource("1_i8ha2")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 9.0
+offset_bottom = 11.0
+scale = Vector2(6, 6)
+texture = ExtResource("2_kgjm3")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 52.0
+offset_top = -12.0
+offset_right = 84.0
+offset_bottom = 19.0
+scale = Vector2(3, 3)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+text = "0"
+horizontal_alignment = 1

@@ -15,6 +15,11 @@ run/main_scene="uid://3v0k84y76xkp"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+GameController="*res://scripts/game_controller.gd"
+EventController="*res://scripts/event_controller.gd"
+
 [display]
 
 window/stretch/mode="canvas_items"
