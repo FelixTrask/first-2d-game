@@ -1301,6 +1301,7 @@ texture = ExtResource("2_vivmo")
 shape = SubResource("RectangleShape2D_7mycd")
 
 [node name="Camera2D" type="Camera2D" parent="Player/Player"]
+position_smoothing_enabled = true
 position_smoothing_speed = 7.0
 
 [node name="TileMap" type="Node" parent="."]
